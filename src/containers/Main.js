@@ -5,6 +5,7 @@ import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
+import Awards from "../pages/awards/Awards";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
@@ -45,6 +46,12 @@ export default class Main extends Component {
                 path="/opensource"
                 render={(props) => (
                   <Opensource {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/awards"
+                render={(props) => (
+                  <Awards {...props} theme={this.props.theme} />
                 )}
               />
               <Route
@@ -100,6 +107,12 @@ export default class Main extends Component {
                 path="/education"
                 render={(props) => (
                   <Education {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
+                path="/awards"
+                render={(props) => (
+                  <Awards {...props} theme={this.props.theme} />
                 )}
               />
               <Route

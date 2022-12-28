@@ -6,12 +6,14 @@ function SeoHeader() {
   return (
     <Helmet>
       <title>{seo.title}</title>
-      <meta name="description" content={seo.description} />
-      <meta property="og:title" content={seo?.og?.title} />
-      <meta property="og:type" content={seo?.og?.type} />
-      <meta property="og:url" content={seo?.og?.url} />
+
+      
     </Helmet>
   );
 }
-
+//<title>{seo.title}</title>
+//<meta property="og:url" content={seo?.og?.url} />
+//      <meta name="description" content={seo.description} />
+//      <meta property="og:title" content={seo?.og?.title} />
+  //    <meta property="og:type" content={seo?.og?.type} />
 export default SeoHeader;
