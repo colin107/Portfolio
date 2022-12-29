@@ -106,7 +106,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using Angular",
+        "⚡ Building responsive website front end using Angular and ReactJS",
         //"⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
         "⚡ Creating application backend in Java Spring",
         "⚡ Write script and tools with Python",
@@ -124,6 +124,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:angular",
           style: {
             color: "#CB3837",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
           },
         },
         {
@@ -157,13 +164,7 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        // {
-        //   skillName: "ReactJS",
-        //   fontAwesomeClassname: "simple-icons:react",
-        //   style: {
-        //     color: "#61DAFB",
-        //   },
-        // },
+
         // {
         //   skillName: "NPM",
         //   fontAwesomeClassname: "simple-icons:npm",
@@ -416,8 +417,8 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2017 - 2021",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, AI etc.",
-        "⚡ Apart from this, I have done courses on Full Stack Development, Deep Learning and Data Science.",
+        "- Data Structures, Algorithms, Database System, Software Engineering, Operating System, Artificial Intelligence, Computer Vision",
+
         // "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
       website_link: "https://www.cuhk.edu.hk/english/index.html",
@@ -482,13 +483,13 @@ const experience = {
           company: "PrimeCredit Limited",
           company_url: "https://www.primecredit.com/",
           logo_path: "1596068108017.jpg",
-          duration: "May 2019 - Sept 2019",
+          duration: "Oct 2020 - May 2021",
           location: "Hong Kong",
           description:
-            "-Developed web application by using Angular and Java Spring Boot",
+            "-Developed web application by using Angular, Java Spring Boot and Oracle",
           description2:"-Built NLP chatbot and Face Recognition with the supervisor",
-          description3:"",
-          description4:"",
+          description3:"-Build and control database by using Python and sqlite3",
+          description4:"-Develop and enhance automated test scripts with Python",
           color: "#ee3c26",
         },
         {
@@ -497,12 +498,12 @@ const experience = {
           company_url:
             "https://homiepet.co/",
           logo_path: "homie.jpg",
-          duration: "Nov 2018 - Dec 2018",
+          duration: "Jul 2020 - Sep 2020",
           location: "Hong Kong",
           description:
-            "-Applied Multi-task Cascaded Convolutional Networks (MTCNN) to detect faces with 99.8% accuracy",
-          description2:"",
-          description3:"",
+            "-Train Deep Learning model to detect human’s face",
+          description2:"Applied Multi-task Cascaded Convolutional Networks (MTCNN) to detect faces with 99.8% accuracy",
+          description3:"Process data for training deep learning model by using Python and OpenCV",
           description4:"",
           color: "#0071C5",
         },
@@ -512,11 +513,11 @@ const experience = {
           company_url:
             "https://www.spaceshipapp.com/en-hk/?utm_source=adwords&utm_medium=ppc&utm_term=spaceship&utm_campaign=PPC_Brand_Band-Pure_EXA_HK&hsa_ver=3&hsa_src=g&hsa_kw=spaceship&hsa_tgt=kwd-1496983995&hsa_cam=6513518554&hsa_mt=b&hsa_ad=476670142746&hsa_acc=6707530821&hsa_grp=111038447178&hsa_net=adwords&gclid=CjwKCAiAzKqdBhAnEiwAePEjkgv7c4yW2q9puPAF4mXTy_XReZYW7EXsNGgm32yDjzll08XZAMrstxoCBvQQAvD_BwE",
           logo_path: "spaceship.jpg",
-          duration: "Nov 2018 - Dec 2018",
+          duration: "Apr 2020 - Jul 2020",
           location: "Hong Kong",
           description:
             "-Developed web application by using React, NodeJS, PHP and MySQL",
-          description2:"",
+          description2:"-Data Analysis and Data Visualization by using Python, Pandas and Matplotlib",
           description3:"",
           description4:"",
           color: "#0071C5",
@@ -527,7 +528,7 @@ const experience = {
           company_url:
             "https://www.xiaoi.com/",
           logo_path: "xiaoi.jpg",
-          duration: "Nov 2018 - Dec 2018",
+          duration: "Jul 2019 - Aug 2019",
           location: "Shanghai",
           description:"-Wrote Machine-Learning algorithms to Implement a Gender Classification system",
           description2:"-Applied Local Binary Pattern (LBP) for feature engineering",
