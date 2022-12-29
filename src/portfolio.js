@@ -432,7 +432,14 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2017 - 2021",
       descriptions: [
-        "- Data Structures, Algorithms, Database System, Software Engineering, Operating System, Artificial Intelligence, Computer Vision",
+        // "⚡Data Structures",
+        // "⚡Algorithms", 
+        
+        "⚡Software Engineering",
+        "⚡Operating System", 
+        "⚡Database System", 
+        "⚡Artificial Intelligence", 
+        "⚡Computer Vision",
 
         // "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
