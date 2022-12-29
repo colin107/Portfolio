@@ -366,7 +366,22 @@ const competitiveSites = {
       },
       profileLink: "https://leetcode.com/colin107/",
     },
-
+    {
+      siteName: "Gmail",
+      iconifyClassname: "simple-icons:gmail",
+      style: {
+        color: "#FF0000",
+      },
+      profileLink: "https://mail.google.com/mail/?view=cm&fs=1&to=wongkailong3@gmail.com",
+    },
+    {
+      siteName: "GitHub",
+      iconifyClassname: "simple-icons:github",
+      style: {
+        color: "#000000",
+      },
+      profileLink: "https://github.com/colin107",
+    },
     // {
     //   name: "LinkedIn",
     //   link: "https://www.linkedin.com/in/colin-wong-457735175/",
