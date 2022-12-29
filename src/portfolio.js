@@ -502,8 +502,8 @@ const experience = {
           location: "Hong Kong",
           description:
             "-Train Deep Learning model to detect human’s face",
-          description2:"Applied Multi-task Cascaded Convolutional Networks (MTCNN) to detect faces with 99.8% accuracy",
-          description3:"Process data for training deep learning model by using Python and OpenCV",
+          description2:"-Applied Multi-task Cascaded Convolutional Networks (MTCNN) to detect faces with 99.8% accuracy",
+          description3:"-Process data for training deep learning model by using Python and OpenCV",
           description4:"",
           color: "#0071C5",
         },
