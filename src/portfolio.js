@@ -527,7 +527,7 @@ const experience = {
           description2:"-Applied Multi-task Cascaded Convolutional Networks (MTCNN) to detect faces with 99.8% accuracy",
           description3:"-Process data for training deep learning model by using Python and OpenCV",
           description4:"",
-          color: "#0071C5",
+          color: "#4285F4",
         },
         {
           title: "IT Trainee",
@@ -542,7 +542,7 @@ const experience = {
           description2:"-Data Analysis and Data Visualization by using Python, Pandas and Matplotlib",
           description3:"",
           description4:"",
-          color: "#0071C5",
+          color: "#D0C734",
         },
         {
           title: "Algorithm Engineer Intern",
@@ -556,7 +556,7 @@ const experience = {
           description2:"-Applied Local Binary Pattern (LBP) for feature engineering",
           description3:"",
           description4:"",
-          color: "#0071C5",
+          color: "#0C9D58",
         },
       ],
     },
