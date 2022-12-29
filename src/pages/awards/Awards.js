@@ -46,9 +46,15 @@ class Awards extends Component {
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
+                  style={{ color: theme.secondaryText, textAlign:'left' }}
                 >
                   {"Within 48 hours, participants will apply knowledge and skills from what they have learnt in the pre-hackathon workshops about data mining to solve the current problem in the Post-COVID-19 era. Participants shall select one sub-theme among the four and work as a one group to provide a solution in an innovative way. Participants will have a group presentation of their solutions in Day 3."}
+                </p>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText, textAlign:'left' }}
+                >
+                  {"We designed and proposed AI and Big Data solutions to save the tourism economy in the post-COVID-19 era."}
                 </p>
                 <div className="resume-btn-div">
                 </div>
@@ -70,6 +76,26 @@ class Awards extends Component {
               <div className="contact-heading-img-div">
                 <img
                   src={require(`../../assests/images/1670918318496.jpg`)}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="contact-heading-div">
+              <div className="contact-heading-img-div">
+                <img
+                  src={require(`../../assests/images/datahack1.png`)}
+                  alt=""
+                />
+              </div>
+              <div className="contact-heading-img-div">
+                <img
+                  src={require(`../../assests/images/datahack2.png`)}
+                  alt=""
+                />
+              </div>
+              <div className="contact-heading-img-div">
+                <img
+                  src={require(`../../assests/images/datahack3.png`)}
                   alt=""
                 />
               </div>
