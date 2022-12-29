@@ -109,7 +109,7 @@ const skills = {
         "⚡ Building responsive website front end using Angular",
         //"⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
         "⚡ Creating application backend in Java Spring",
-        "⚡ Wrote script and tools with Python",
+        "⚡ Write script and tools with Python",
       ],
       softwareSkills: [
         {
