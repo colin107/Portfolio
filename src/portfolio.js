@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "BSc Computer Science in CUHK \n",
   subTitle2:
-    "Junior Programmer in Hongkong Post \n",
+    "Application Developer in Atos \n",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -482,6 +482,17 @@ const experience = {
     {
       title: "Work",
       experiences: [
+        {
+          title: "Application Developer",
+          company: "Atos",
+          company_url: "https://atos.net/en/",
+          logo_path: "atos.jpg",
+          duration: "Feb 2023 - Now",
+          location: "Hong Kong",
+          description:"-Develope and maintain server-side program with Java",
+          description2:"-Improve program performance by multithreading and SQL turing",
+          color: "#FF5733",
+        },
         {
           title: "Junior Programmer",
           company: "Hongkong Post",
