@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "Colin Wong",
   nickname: "layman_brother",
   subTitle:
-    "BSc Computer Science in CUHK \n",
-  subTitle2:
     "Application Developer in Atos \n",
+  subTitle2:
+    "BSc Computer Science in CUHK \n",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
