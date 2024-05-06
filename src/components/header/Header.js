@@ -23,7 +23,7 @@ class Header extends Component {
       <Fade top duration={1000} distance="20px">
         <SeoHeader />
         <div>
-          <header className="header" style={{width: 2000}}>
+          <header className="header" style={{ width: 2000 }}>
             <NavLink to={link} tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
@@ -72,7 +72,7 @@ class Header extends Component {
                   Experience
                 </NavLink>
               </li>
-              {/* <li>
+              <li>
                 <NavLink
                   to="/projects"
                   tag={Link}
@@ -83,7 +83,7 @@ class Header extends Component {
                 >
                   Projects
                 </NavLink>
-              </li> */}
+              </li>
               <li>
                 <NavLink
                   to="/awards"

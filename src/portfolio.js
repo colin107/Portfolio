@@ -22,10 +22,8 @@ const greeting = {
   title: "Colin Wong",
   logo_name: "Colin Wong",
   nickname: "layman_brother",
-  subTitle:
-    "Application Developer in Atos \n",
-  subTitle2:
-    "BSc Computer Science in CUHK \n",
+  subTitle: "Application Developer in Atos \n",
+  subTitle2: "BSc Computer Science in CUHK \n",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -372,7 +370,8 @@ const competitiveSites = {
       style: {
         color: "#FF0000",
       },
-      profileLink: "https://mail.google.com/mail/?view=cm&fs=1&to=wongkailong3@gmail.com",
+      profileLink:
+        "https://mail.google.com/mail/?view=cm&fs=1&to=wongkailong3@gmail.com",
     },
     {
       siteName: "GitHub",
@@ -433,12 +432,12 @@ const degrees = {
       duration: "2017 - 2021",
       descriptions: [
         // "⚡Data Structures",
-        // "⚡Algorithms", 
-        
+        // "⚡Algorithms",
+
         "⚡Software Engineering",
-        "⚡Operating System", 
-        "⚡Database System", 
-        "⚡Artificial Intelligence", 
+        "⚡Operating System",
+        "⚡Database System",
+        "⚡Artificial Intelligence",
         "⚡Computer Vision",
 
         // "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
@@ -451,9 +450,18 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "AWS Certified Cloud Practitioner",
+      // subtitle: "- Alex Aklson",
+      logo_path: "AWS.png",
+      certificate_link:
+        "https://www.credly.com/badges/331a3b9b-c88b-4ec8-90bf-501a71ae92fd/linked_in_profile",
+      alt_name: "AWS",
+      color_code: "#1F70C199",
+    },
+    {
       title: "Tools for Data Science",
       // subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      logo_path: "IBM.webp",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/certificate/P6CWC67PYS9L",
       alt_name: "IBM",
@@ -462,7 +470,7 @@ const certifications = {
     {
       title: "What is Data Science?",
       // subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
+      logo_path: "IBM.webp",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/certificate/QPS6CWGZD7BZ",
       alt_name: "IBM",
@@ -476,7 +484,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "In my current job, my main responsibility is to develope, maintain, design and migrate full stack web applications with java, angular and javascript. I also have some web developement and AI experience in different company, such as technology company, FinTech company and startups. ",
+    "In my last job, my main responsibility was to develope, maintain, design and migrate full stack web applications with java, angular and javascript. I also have web developement and AI experience in different company, such as technology company, FinTech company and startups. ",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -487,10 +495,11 @@ const experience = {
           company: "Atos",
           company_url: "https://atos.net/en/",
           logo_path: "atos.jpg",
-          duration: "Feb 2023 - Now",
+          duration: "Feb 2023 - Feb 2024",
           location: "Hong Kong",
-          description:"-Develope and maintain server-side program with Java",
-          description2:"-Improve program performance by multithreading and SQL turing",
+          description: "-Develope and maintain server-side program with Java",
+          description2:
+            "-Improve program performance by multithreading and SQL turing",
           color: "#FF5733",
         },
         {
@@ -500,10 +509,14 @@ const experience = {
           logo_path: "hkpo.jpg",
           duration: "Jan 2022 - Jan 2023",
           location: "Hong Kong",
-          description:"-Develope, maintain, design and migrate full stack web applications with AngularTs, Java Spring and JavaScript",
-          description2:"-Build Single Sign-On (SSO) on web application to replace old login system",
-          description3:"-Improve system performance and reduce 90% of user interface latency ",
-          description4:"-Write automated scripts to test websites and save the company's testing costs",
+          description:
+            "-Develope, maintain, design and migrate full stack web applications with AngularTs, Java Spring and JavaScript",
+          description2:
+            "-Build Single Sign-On (SSO) on web application to replace old login system",
+          description3:
+            "-Improve system performance and reduce 90% of user interface latency ",
+          description4:
+            "-Write automated scripts to test websites and save the company's testing costs",
           color: "#0879bf",
         },
       ],
@@ -520,24 +533,27 @@ const experience = {
           location: "Hong Kong",
           description:
             "-Developed web application by using Angular, Java Spring Boot and Oracle",
-          description2:"-Built NLP chatbot and Face Recognition with the supervisor",
-          description3:"-Build and control database by using Python and sqlite3",
-          description4:"-Develop and enhance automated test scripts with Python",
+          description2:
+            "-Built NLP chatbot and Face Recognition with the supervisor",
+          description3:
+            "-Build and control database by using Python and sqlite3",
+          description4:
+            "-Develop and enhance automated test scripts with Python",
           color: "#ee3c26",
         },
         {
           title: "AI Software Engineer Intern",
           company: "Homie Pet Limited",
-          company_url:
-            "https://homiepet.co/",
+          company_url: "https://homiepet.co/",
           logo_path: "homie.jpg",
           duration: "Jul 2020 - Sep 2020",
           location: "Hong Kong",
-          description:
-            "-Train Deep Learning model to detect human’s face",
-          description2:"-Applied Multi-task Cascaded Convolutional Networks (MTCNN) to detect faces with 99.8% accuracy",
-          description3:"-Process data for training deep learning model by using Python and OpenCV",
-          description4:"",
+          description: "-Train Deep Learning model to detect human’s face",
+          description2:
+            "-Applied Multi-task Cascaded Convolutional Networks (MTCNN) to detect faces with 99.8% accuracy",
+          description3:
+            "-Process data for training deep learning model by using Python and OpenCV",
+          description4: "",
           color: "#4285F4",
         },
         {
@@ -550,23 +566,25 @@ const experience = {
           location: "Hong Kong",
           description:
             "-Developed web application by using React, NodeJS, PHP and MySQL",
-          description2:"-Data Analysis and Data Visualization by using Python, Pandas and Matplotlib",
-          description3:"",
-          description4:"",
+          description2:
+            "-Data Analysis and Data Visualization by using Python, Pandas and Matplotlib",
+          description3: "",
+          description4: "",
           color: "#D0C734",
         },
         {
           title: "Algorithm Engineer Intern",
           company: "Shanghai Xiaoi Robot Technology Co. Ltd",
-          company_url:
-            "https://www.xiaoi.com/",
+          company_url: "https://www.xiaoi.com/",
           logo_path: "xiaoi.jpg",
           duration: "Jul 2019 - Aug 2019",
           location: "Shanghai",
-          description:"-Wrote Machine-Learning algorithms to Implement a Gender Classification system",
-          description2:"-Applied Local Binary Pattern (LBP) for feature engineering",
-          description3:"",
-          description4:"",
+          description:
+            "-Wrote Machine-Learning algorithms to Implement a Gender Classification system",
+          description2:
+            "-Applied Local Binary Pattern (LBP) for feature engineering",
+          description3: "",
+          description4: "",
           color: "#0C9D58",
         },
       ],
@@ -639,7 +657,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create and deploy web applications using AWS cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -702,8 +720,7 @@ const contactPageData = {
     profile_image_path: "1582724963022.jpg",
     description:
       "You can find me on Linkdln OR Email to wongkailong3@gmail.com",
-      description2:
-      "Email to wongkailong3@gmail.com",
+    description2: "Email to wongkailong3@gmail.com",
   },
   blogSection: {
     title: "Blogs",
