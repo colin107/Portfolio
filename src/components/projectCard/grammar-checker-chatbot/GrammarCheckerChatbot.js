@@ -9,6 +9,17 @@ import { Tab as BaseTab, tabClasses } from "@mui/base/Tab";
 export default function GrammerCheckerChatbot() {
   return (
     <div>
+      <div>
+        Developed a full-stack web application featuring a custom AI GPT chatbot
+        for checking grammatical errors in sentences, using React, Python,
+        OpenAI, and AWS Cloud Service.
+      </div>
+      <div>
+        Users are able to input English sentences. If a sentence is correct,
+        respond with 'Correct.' If incorrect, explain the error and provide the
+        correct sentence.
+      </div>
+
       <img
         style={{
           maxWidth: "70%",
