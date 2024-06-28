@@ -497,9 +497,14 @@ const experience = {
           logo_path: "atos.jpg",
           duration: "Feb 2023 - Feb 2024",
           location: "Hong Kong",
-          description: "-Develope and maintain server-side program with Java",
+          description:
+            "-Developed and maintained Java server-side programs for data management using Informatica Master Data Management (MDM).",
           description2:
-            "-Improve program performance by multithreading and SQL turing",
+            "-Managed large-scale Oracle databases that supported multiple client applications, highlighting the ability to handle extensive datasets and high demand environments.",
+          description3:
+            "-Implemented solutions for data cleaning, merging, patching, and recovery, ensuring reliable data handling for client Oracle databases.",
+          description4:
+            "-Improved program performance by Multithreading and SQL Tuning, which significantly improved processing times and resource utilization.",
           color: "#FF5733",
         },
         {
@@ -510,13 +515,13 @@ const experience = {
           duration: "Jan 2022 - Jan 2023",
           location: "Hong Kong",
           description:
-            "-Develope, maintain, design and migrate full stack web applications with AngularTs, Java Spring and JavaScript",
+            "-Developed, maintained, and migrated full-stack internal and external web applications using Java Spring, Angular, TypeScript, JavaScript, HTML and CSS, ensuring high standards of performance and user experience.",
           description2:
-            "-Build Single Sign-On (SSO) on web application to replace old login system",
+            "-Implemented Single Sign-On (SSO) for web applications, enhancing security and user accessibility by replacing the outdated login system.",
           description3:
-            "-Improve system performance and reduce 90% of user interface latency ",
+            "-Improved user interface performance, reducing latency by 90% and significantly enhancing response times.",
           description4:
-            "-Write automated scripts to test websites and save the company's testing costs",
+            "-Developed automated testing scripts in Python that streamlined the testing process, reducing company costs associated with manual testing efforts.",
           color: "#0879bf",
         },
       ],
@@ -532,7 +537,7 @@ const experience = {
           duration: "Oct 2020 - May 2021",
           location: "Hong Kong",
           description:
-            "-Developed web application by using Angular, Java Spring Boot and Oracle",
+            "-Developed and maintained full-stack internal web applications using Java Spring Boot, Angular, TypeScript, HTML and CSS.",
           description2:
             "-Built NLP chatbot and Face Recognition with the supervisor",
           description3:

@@ -10,12 +10,18 @@ export default function JoinEvent() {
   return (
     <div>
       <div>
-        Developed a full stack event platform web application using React,
-        Python, and AWS Cloud Services.
+        I developed a full-stack web application using React, Python, and AWS
+        Cloud services, which facilitates users in creating, discovering, and
+        joining various events. For user authentication, I implemented Google
+        Identity Services within the React framework, enhancing security and
+        user experience by streamlining the login processes. Additionally, I
+        utilized DynamoDB for efficient data storage and retrieval, effectively
+        handling high volumes of event data and user interactions with high
+        availability and scalability.
       </div>
-      <div>
+      {/* <div>
         Got user information via Google Identity Services Login with React
-      </div>
+      </div> */}
       <div>
         <img
           style={{

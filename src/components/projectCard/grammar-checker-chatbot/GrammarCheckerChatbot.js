@@ -10,15 +10,23 @@ export default function GrammerCheckerChatbot() {
   return (
     <div>
       <div>
-        Developed a full-stack web application featuring a custom AI GPT chatbot
-        for checking grammatical errors in sentences, using React, Python,
-        OpenAI, and AWS Cloud Service.
+        I developed an AI-powered GPT chatbot that utilizes React for front-end
+        development and Python for back-end integration, aimed at providing
+        real-time grammar checking within a web application. By integrating
+        OpenAI's GPT models, the chatbot analyzes and provides real-time
+        responses to user inputs, accurately identifying grammatical errors. The
+        design of the chatbot allows it to provide immediate feedback; if the
+        input sentence is grammatically correct, it outputs "Correct," and if
+        incorrect, it explains the error and suggests the correct sentence
+        structure. Additionally, I deployed the application using AWS Cloud
+        service to ensure scalable, reliable access and continuous availability
+        for users.
       </div>
-      <div>
+      {/* <div>
         Users are able to input English sentences. If a sentence is correct,
         respond with 'Correct.' If incorrect, explain the error and provide the
         correct sentence.
-      </div>
+      </div> */}
 
       <img
         style={{
