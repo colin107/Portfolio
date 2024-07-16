@@ -22,14 +22,15 @@ class Projects extends Component {
     return (
       <div className="projects-main">
         <Header theme={theme} />
-        <div className="basic-projects">
+
+        {/* <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
+                <img
 											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
 											alt=""
-										/> */}
+										/>
                 <ProjectsImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
@@ -48,7 +49,8 @@ class Projects extends Component {
               </div>
             </div>
           </Fade>
-        </div>
+        </div> */}
+
         <div className="repo-cards-div-main">
           <ProjectCard />
           {/* {ProjectsData.data.map((repo) => {

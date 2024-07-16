@@ -10,29 +10,45 @@ export default function GrammerCheckerChatbot() {
   return (
     <div>
       <div>
+        Please feel free to explore "GrammarGuardian" at &nbsp;
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://main.d1i4ruulda4god.amplifyapp.com/"
+        >
+          https://main.d1i4ruulda4god.amplifyapp.com/
+        </a>
+      </div>
+      <div>
+        <br></br>
+      </div>
+      <div>
         I developed an AI-powered GPT chatbot that utilizes React for front-end
         development and Python for back-end integration, aimed at providing
-        real-time grammar checking within a web application. By integrating
-        OpenAI's GPT models, the chatbot analyzes and provides real-time
-        responses to user inputs, accurately identifying grammatical errors. The
-        design of the chatbot allows it to provide immediate feedback; if the
-        input sentence is grammatically correct, it outputs "Correct," and if
-        incorrect, it explains the error and suggests the correct sentence
-        structure. Additionally, I deployed the application using AWS Cloud
-        service to ensure scalable, reliable access and continuous availability
-        for users.
+        real-time grammar checking within a web application.
+      </div>
+      <div>
+        By integrating OpenAI's GPT models, the chatbot analyzes and provides
+        real-time responses to user inputs, accurately identifying grammatical
+        errors.
       </div>
       {/* <div>
-        Users are able to input English sentences. If a sentence is correct,
-        respond with 'Correct.' If incorrect, explain the error and provide the
-        correct sentence.
+        The design of the chatbot allows it to provide immediate feedback.
       </div> */}
-
+      <div>
+        if the input sentence is grammatically correct, it outputs "Correct,"
+        and if incorrect, it explains the error and suggests the correct
+        sentence structure.
+      </div>
+      <div>
+        Additionally, I deployed the application using AWS Cloud service to
+        ensure scalable, reliable access and continuous availability for users.
+      </div>
       <img
         style={{
           maxWidth: "70%",
           maxHeight: "70%",
-          transform: "scale(0.9)",
+          transform: "scale(1)",
         }}
         src={require(`../../../assests/images/Grammar-Checker-Chatbot.png`)}
         // alt={degree.alt_name}

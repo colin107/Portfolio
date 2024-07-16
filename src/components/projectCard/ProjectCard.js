@@ -14,7 +14,7 @@ export default function UnstyledTabsCustomized() {
     <div className="tab">
       <Tabs defaultValue={1} className="tab">
         <TabsList className="tab">
-          <Tab value={1}>Grammar Checker Chatbot</Tab>
+          <Tab value={1}>GrammarGuardian</Tab>
           <Tab value={2}>Join Event</Tab>
         </TabsList>
         <TabPanel value={1}>
