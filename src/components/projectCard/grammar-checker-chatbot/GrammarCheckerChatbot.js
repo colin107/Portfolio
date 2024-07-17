@@ -18,6 +18,14 @@ export default function GrammerCheckerChatbot() {
         >
           https://main.d1i4ruulda4god.amplifyapp.com/
         </a>
+        &nbsp;and the source code &nbsp;
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/colinwong107/GrammarGuardian"
+        >
+          https://github.com/colinwong107/GrammarGuardian
+        </a>
       </div>
       <div>
         <br></br>

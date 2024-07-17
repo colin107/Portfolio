@@ -379,7 +379,7 @@ const competitiveSites = {
       style: {
         color: "#000000",
       },
-      profileLink: "https://github.com/colin107",
+      profileLink: "https://github.com/colinwong107",
     },
     // {
     //   name: "LinkedIn",
