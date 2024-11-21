@@ -10,7 +10,7 @@ export default function JoinEvent() {
   return (
     <div>
       <div>
-        Please feel free to explore "Join Event" at &nbsp;
+        Please feel free to explore "Join Circle" at &nbsp;
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -18,21 +18,29 @@ export default function JoinEvent() {
         >
           https://main.d17caj9rxk8awk.amplifyapp.com/
         </a>
+        &nbsp;and the source code &nbsp;
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/colinwong107/JoinCircle"
+        >
+          https://github.com/colinwong107/JoinCircle
+        </a>
       </div>
       <br></br>
       <div>
-        I developed a full-stack web application using React, Python, and AWS
+        Join Circle is a full-stack web application using React, Python, and AWS
         Cloud services, which facilitates users in creating, discovering, and
         joining various events.
       </div>
       <div>
-        For user authentication, I implemented Google Identity Services within
-        the React framework, enhancing security and user experience by
-        streamlining the login processes.
+        Google Identity Services were implemented within the React framework for
+        user authentication, enhancing security and streamlining the login
+        process to improve the user experience.
       </div>
       <div>
-        Additionally, I utilized DynamoDB for efficient data storage and
-        retrieval, effectively handling high volumes of event data and user
+        DynamoDB was utilized for efficient data storage and retrieval, ensuring
+        the application can handle high volumes of event data and user
         interactions with high availability and scalability.
       </div>
       {/* <div>

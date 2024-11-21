@@ -30,27 +30,18 @@ export default function GrammerCheckerChatbot() {
       <div>
         <br></br>
       </div>
+
       <div>
-        I developed an AI-powered GPT chatbot that utilizes React for front-end
-        development and Python for back-end integration, aimed at providing
-        real-time grammar checking within a web application.
-      </div>
-      <div>
-        By integrating OpenAI's GPT models, the chatbot analyzes and provides
-        real-time responses to user inputs, accurately identifying grammatical
-        errors.
-      </div>
-      {/* <div>
-        The design of the chatbot allows it to provide immediate feedback.
-      </div> */}
-      <div>
-        if the input sentence is grammatically correct, it outputs "Correct,"
-        and if incorrect, it explains the error and suggests the correct
-        sentence structure.
-      </div>
-      <div>
-        Additionally, I deployed the application using AWS Cloud service to
-        ensure scalable, reliable access and continuous availability for users.
+        GrammarGuardian is an AI-powered GPT chatbot designed to provide
+        real-time grammar checking within a web application. It utilizes React
+        for front-end development and Python for back-end integration. By
+        leveraging OpenAI's GPT models, the chatbot analyzes user inputs and
+        delivers real-time feedback, accurately identifying grammatical errors.
+        For grammatically correct inputs, it outputs "Correct," while for
+        incorrect inputs, it explains the error and suggests an improved
+        sentence structure. The application is deployed using AWS Cloud
+        services, ensuring scalability, reliability, and continuous availability
+        for users.
       </div>
       <img
         style={{

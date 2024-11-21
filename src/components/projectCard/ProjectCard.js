@@ -7,6 +7,7 @@ import { buttonClasses } from "@mui/base/Button";
 import { Tab as BaseTab, tabClasses } from "@mui/base/Tab";
 import GrammerCheckerChatbot from "./grammar-checker-chatbot/GrammarCheckerChatbot";
 import JoinEvent from "./join-event/JoinEvent";
+import Petalife from "./petalife/Petalife";
 import "./ProjectCard.css";
 
 export default function UnstyledTabsCustomized() {
@@ -14,13 +15,17 @@ export default function UnstyledTabsCustomized() {
     <div className="tab">
       <Tabs defaultValue={1} className="tab">
         <TabsList className="tab">
-          <Tab value={1}>GrammarGuardian</Tab>
-          <Tab value={2}>Join Event</Tab>
+          <Tab value={1}>Petalife</Tab>
+          <Tab value={2}>Grammar Guardian</Tab>
+          <Tab value={3}>Join Circle</Tab>
         </TabsList>
         <TabPanel value={1}>
-          <GrammerCheckerChatbot />
+          <Petalife />
         </TabPanel>
         <TabPanel value={2}>
+          <GrammerCheckerChatbot />
+        </TabPanel>
+        <TabPanel value={3}>
           <JoinEvent />
         </TabPanel>
       </Tabs>

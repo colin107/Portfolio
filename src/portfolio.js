@@ -22,7 +22,7 @@ const greeting = {
   title: "Colin Wong",
   logo_name: "Colin Wong",
   nickname: "layman_brother",
-  subTitle: "Application Developer in Atos \n",
+  subTitle: "Full Stack and AI Developer in Petalife \n",
   subTitle2: "BSc Computer Science in CUHK \n",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
@@ -491,6 +491,24 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Full Stack and AI Developer",
+          company: "Petalife",
+          company_url: "https://petalife.tech/",
+          logo_path: "petalife.jpeg",
+          duration: "April 2024 - Now",
+          location: "Hong Kong",
+          description:
+            "-Designed and developed an AI pet consultant chatbot web application using React, Python, and OpenAI to analyze and interpret complex pet health data, delivering actionable insights and recommendations to meet strategic project objectives.",
+          description2:
+            "-Architected the cloud infrastructure on Amazon Web Services (AWS), designing scalable APIs with API Gateway and leveraging services like DynamoDB, S3, Lambda, Cognito, Amplify, and CloudWatch for seamless integration, efficient development workflows, real- time monitoring, and optimized performance.",
+          description3:
+            "-Developed and integrated a comprehensive login system featuring Google login, leveraging AWS Cognito for efficient user ID management, enhanced security, and an improved user experience.",
+          description4:
+            "-Trained a custom OpenAI GPT model and integrated the OpenAI API into the backend, significantly enhancing the capabilities and user engagement of the AI solutions.",
+          description5: "ss",
+          color: "#D0C734",
+        },
+        {
           title: "Application Developer",
           company: "Atos",
           company_url: "https://atos.net/en/",
@@ -522,7 +540,7 @@ const experience = {
             "-Improved user interface performance, reducing latency by 90% and significantly enhancing response times.",
           description4:
             "-Developed automated testing scripts in Python that streamlined the testing process, reducing company costs associated with manual testing efforts.",
-          color: "#0879bf",
+          color: "#5879bf",
         },
       ],
     },
